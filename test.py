@@ -27,9 +27,9 @@ nlp.close()
 
 
 
-from nltk.parse.stanford import StanfordDependencyParser
-
-eng_parser = StanfordDependencyParser(model_path=u'edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz')
-res = list(eng_parser.parse("the quick brown fox jumps over the lazy dog".split()))
-for row in res[0].triples():
-    print (row)
+# from nltk.parse.stanford import StanfordDependencyParser
+#
+# eng_parser = StanfordDependencyParser(model_path=u'edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz')
+# res = list(eng_parser.parse("the quick brown fox jumps over the lazy dog".split()))
+# for row in res[0].triples():
+#     print (row)
